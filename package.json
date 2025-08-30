@@ -1,0 +1,31 @@
+{
+  "scripts": {
+    "dev": "webpack serve --watch --mode=development",
+    "build": "webpack --mode=production",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "comlink": "^4.4.2",
+    "stats.js": "^0.17.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/stats.js": "^0.17.4",
+    "css-loader": "^7.1.2",
+    "csv-parse": "^6.1.0",
+    "ignore-emit-webpack-plugin": "^2.0.6",
+    "jest": "^30.0.5",
+    "jest-environment-jsdom": "^30.0.5",
+    "mini-css-extract-plugin": "^2.9.4",
+    "ts-jest": "^29.4.1",
+    "ts-loader": "^9.5.4",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2",
+    "yaml-loader": "^0.8.1"
+  },
+  "packageManager": "yarn@1.22.22"
+}

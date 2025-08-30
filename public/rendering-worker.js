@@ -1,0 +1,1 @@
+(()=>{"use strict";class t{#t;#s;constructor(t){this.#t=new Uint8Array(t,0,16),this.#s=new Float32Array(t,16,256)}setTestValue(){this.#s[0]=1}getTestValue(){return this.#s[0]}}console.log("rendering"),self.onmessage=s=>{const e=s.data.sab,o=new t(e);console.log(o),setTimeout(()=>{console.log(o.getTestValue())},1e3)}})();
